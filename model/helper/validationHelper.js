@@ -54,7 +54,6 @@ class ValidationHelper {
     deleteKey(address) {
         db.del(address);
     }
-
     
 }
 
