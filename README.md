@@ -60,12 +60,14 @@ Title | Params
 ```
 
 **Validate User Request**
+
 Title | Params
 ----- | --------
  **URL** | /requestValidation 
  **Method** | POST
  **Success Response** |The block in JSON format
  **Payload** | Specify the contents of the data block
+
 **Payload example:**
 ```
 {
@@ -73,12 +75,14 @@ Title | Params
 }
 ```
 **Allow User Message Signature**
+
 Title | Params
 ----- | -------
  **URL** | /message-signature/validate 
  **Method** | POST
  **Success Response** |The block in JSON format
  **Payload** | Specify the contents of the data block
+
 **Payload example:**
 ```
 {
@@ -87,6 +91,7 @@ Title | Params
 }
 ```
 **Search by Blockchain Wallet Address**
+
 Title | Params
 ----- | --------
  **URL** | /stars/address:[ADDRESS]
@@ -95,6 +100,7 @@ Title | Params
  **URL Params** | The Wallet address
 
 **Search by Star Block Hash**
+
 Title | Params
 ----- | ---------
  **URL** | /stars/hash:[HASH] 
