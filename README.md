@@ -26,19 +26,19 @@ This project uses open source projects to work properly:
 **URL Base:** http://localhost:8000
 
 **To visualize a block on the chain**
-|||
-| ------ | ------ |
-| **URL** | /block/:height |
-| **Method** | GET|
-| **URL Params** | The block height. Integer type|
-| **Success Response** |The block in JSON format
+Title|Params|
+---------------------|--------
+**URL** | /block/:height |
+**Method** | GET|
+**URL Params** | The block height. Integer type|
+**Success Response** | The block in JSON format
 
 **To create a new block on the chain - Star Registration**
-|||
-| ------ | ------ |
-|**URL**| /block |
-|**Method** | POST |
-| **Payload** | Specify the contents of the data block |
+Title|Params
+ ------ | ------
+**URL** | /block
+**Method** | POST
+ **Payload** | Specify the contents of the data block
 **Payload example:**
 ```
 {
@@ -52,12 +52,12 @@ This project uses open source projects to work properly:
 ```
 
 **Validate User Request**
-|Title|Params|
-| ------ | ------ |
-| **URL** | /requestValidation |
-| **Method** | POST|
-| **Success Response** |The block in JSON format
-| **Payload** | Specify the contents of the data block |
+Title | Params
+ ------ | ------
+ **URL** | /requestValidation 
+ **Method** | POST
+ **Success Response** |The block in JSON format
+ **Payload** | Specify the contents of the data block
 **Payload example:**
 ```
 {
@@ -65,12 +65,12 @@ This project uses open source projects to work properly:
 }
 ```
 **Allow User Message Signature**
-|Title|Params|
-| ------ | ------ |
-| **URL** | /message-signature/validate |
-| **Method** | POST|
-| **Success Response** |The block in JSON format
-| **Payload** | Specify the contents of the data block |
+Title | Params
+ ------ | ------ 
+ **URL** | /message-signature/validate 
+ **Method** | POST
+ **Success Response** |The block in JSON format
+ **Payload** | Specify the contents of the data block
 **Payload example:**
 ```
 {
@@ -79,20 +79,20 @@ This project uses open source projects to work properly:
 }
 ```
 **Search by Blockchain Wallet Address**
-|Title|Params|
-| ------ | ------ |
-| **URL** | /stars/address:[ADDRESS] |
-| **Method** | GET|
-| **Success Response** |The block in JSON format
-| **URL Params** | The Wallet address|
+Title | Params
+ ------ | ------
+ **URL** | /stars/address:[ADDRESS]
+ **Method** | GET
+ **Success Response** | The block in JSON format
+ **URL Params** | The Wallet address
 
 **Search by Star Block Hash**
-|Title|Params|
-| ------ | ------ |
-| **URL** | /stars/hash:[HASH] |
-| **Method** | GET|
-| **Success Response** |The block in JSON format
-| **URL Params** | The Hash of the block|
+Title | Params
+ ------ | ------
+ **URL** | /stars/hash:[HASH] 
+ **Method** | GET
+ **Success Response** | The block in JSON format
+ **URL Params** | The Hash of the block
 
 ### Configuring your project
 
