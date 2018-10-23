@@ -26,21 +26,22 @@ This project uses open source projects to work properly:
 **URL Base:** http://localhost:8000
 
 First Header | Second Header
------------- | -------------
+---------- | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 **To visualize a block on the chain**
-Title|Params|
----------------------|--------
-**URL** | /block/:height |
-**Method** | GET|
-**URL Params** | The block height. Integer type|
+
+Title  | Params
+------ | --------
+**URL** | /block/:height 
+**Method** | GET
+**URL Params** | The block height. Integer type
 **Success Response** | The block in JSON format
 
 **To create a new block on the chain - Star Registration**
-Title|Params
- ------ | ------
+Title | Params
+----- | --------
 **URL** | /block
 **Method** | POST
  **Payload** | Specify the contents of the data block
@@ -58,7 +59,7 @@ Title|Params
 
 **Validate User Request**
 Title | Params
- ------ | ------
+----- | --------
  **URL** | /requestValidation 
  **Method** | POST
  **Success Response** |The block in JSON format
@@ -71,7 +72,7 @@ Title | Params
 ```
 **Allow User Message Signature**
 Title | Params
- ------ | ------ 
+----- | -------
  **URL** | /message-signature/validate 
  **Method** | POST
  **Success Response** |The block in JSON format
@@ -85,7 +86,7 @@ Title | Params
 ```
 **Search by Blockchain Wallet Address**
 Title | Params
- ------ | ------
+----- | --------
  **URL** | /stars/address:[ADDRESS]
  **Method** | GET
  **Success Response** | The block in JSON format
@@ -93,7 +94,7 @@ Title | Params
 
 **Search by Star Block Hash**
 Title | Params
- ------ | ------
+----- | ---------
  **URL** | /stars/hash:[HASH] 
  **Method** | GET
  **Success Response** | The block in JSON format
