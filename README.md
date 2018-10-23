@@ -40,11 +40,13 @@ Title  | Params
 **Success Response** | The block in JSON format
 
 **To create a new block on the chain - Star Registration**
+
 Title | Params
 ----- | --------
 **URL** | /block
 **Method** | POST
- **Payload** | Specify the contents of the data block
+**Payload** | Specify the contents of the data block
+
 **Payload example:**
 ```
 {
