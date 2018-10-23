@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Installing Node and NPM is pretty straightforward using the installer package available from the (Node.js® web site) https://nodejs.org/en/.
+Installing Node and NPM is pretty straightforward using the installer package available from the (Node.jsÂ® web site) https://nodejs.org/en/.
 
 ### Tech
 This project uses open source projects to work properly:
@@ -44,7 +44,7 @@ This project uses open source projects to work properly:
 {
       "address": "142BDCeSGbXjWKaAnYXbMpZ6sbrSAo3DpZ",
       "star": {
-            "dec": "-26° 29'\'' 24.9",
+            "dec": "-26Â° 29'\'' 24.9",
             "ra": "16h 29m 1.0s",
             "story": "Found star using https://www.google.com/sky/"
       }
@@ -52,7 +52,7 @@ This project uses open source projects to work properly:
 ```
 
 **Validate User Request**
-|||
+|Title|Params|
 | ------ | ------ |
 | **URL** | /requestValidation |
 | **Method** | POST|
@@ -65,7 +65,7 @@ This project uses open source projects to work properly:
 }
 ```
 **Allow User Message Signature**
-|||
+|Title|Params|
 | ------ | ------ |
 | **URL** | /message-signature/validate |
 | **Method** | POST|
@@ -79,7 +79,7 @@ This project uses open source projects to work properly:
 }
 ```
 **Search by Blockchain Wallet Address**
-|||
+|Title|Params|
 | ------ | ------ |
 | **URL** | /stars/address:[ADDRESS] |
 | **Method** | GET|
@@ -87,7 +87,7 @@ This project uses open source projects to work properly:
 | **URL Params** | The Wallet address|
 
 **Search by Star Block Hash**
-|||
+|Title|Params|
 | ------ | ------ |
 | **URL** | /stars/hash:[HASH] |
 | **Method** | GET|
