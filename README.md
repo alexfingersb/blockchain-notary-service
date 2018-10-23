@@ -25,6 +25,11 @@ This project uses open source projects to work properly:
 
 **URL Base:** http://localhost:8000
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 **To visualize a block on the chain**
 Title|Params|
 ---------------------|--------
